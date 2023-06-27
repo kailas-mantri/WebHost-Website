@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Sans-Serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.board{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10% 0 4%;
+	color: #333333;
+	background-color: transparent;
+}
+.board > h1{
+	text-align: center;
+	font-size: 60px;
+	color: #223547;
+	border-bottom: 5px solid #223547;
+	border-height: 10px;
+}
+.desc{
+	margin-top: 10%;
+	text-align: center;
+	color: #333333;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+.desc > p{
+	font-size: 16.5px;
+	color: #333333;
+	line-height: 29px;
+}
+.desc > h1{
+	margin-top: 30px;
+	font-size: 40px;
+	flex-wrap: nowrap;
+	font-weight: 400;
+}
+.listed-item{
+	padding-left: 35px;
+	line-height: 45px;
+}
+.listed-item li{
+	padding-left: 15px;
+	list-style-type: disc;
+}
+.links{
+	font-weight: 600;
+	color: #1C77C3;
+}
+.links:hover{
+	color: #0F416A;
+}
+@media screen and (max-width: 958px){
+	.board > h1{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 813px){
+	.board > h1{
+		padding-top: 20%;
+		font-size: 30px;
+	}
+	.desc > p{
+		margin-bottom: 80px;
+		font-size: 17px;
+	}
+	.desc > h1{
+		font-size: 28px;
+	}
+	.listed-item{
+		line-height: 32px;
+	}
+}
+@media screen and (max-width: 704px){
+	.board > h1{
+		padding-top: 20%;
+		font-size: 28px;
+	}
+	.desc > p{
+		font-size: 17px;
+	}
+	.desc > h1{
+		font-size: 28px;
+	}
+	.listed-item{
+		line-height: 33px;
+	}
+}
+@media screen and (max-width: 621px){
+	.board > h1{
+		padding-top: 28%;
+		font-size: 27px;
+	}
+	.desc > p{
+		font-size: 17px;
+	}
+	.desc > h1{
+		font-size: 28px;
+	}
+	.listed-item{
+		line-height: 34px;
+	}
+}
+@media screen and (max-width: 501px){
+	.board > h1{
+		padding-top: 32%;
+		font-size: 26px;
+	}
+	.desc > p{
+		font-size: 17px;
+	}
+	.desc > h1{
+		font-size: 28px;
+	}
+	.listed-item{
+		line-height: 29px;
+	}
+}
+@media screen and (max-width: 421px){
+	.board > h1{
+		padding-top: 35%;
+		font-size: 26px;
+	}
+	.desc > p{
+		margin-bottom: 40px;
+		font-size: 16px;
+	}
+	.desc > h1{
+		font-size: 25px;
+	}
+	.listed-item{
+		line-height: 35px;
+	}
+	.listed-item > p{
+		margin: 10px 0;
+	}
+}
+@media screen and (max-width: 390px){
+	.board > h1{
+		padding-top: 38%;
+		font-size: 24px;
+	}
+	.desc > p{
+		font-size: 16px;
+	}
+	.desc > h1{
+		font-size: 25px;
+	}
+	.listed-item{
+		line-height: 30px;
+	}
+}
+@media screen and (max-width: 340px){
+	.board > h1{
+		padding-top: 42%;
+		font-size: 23px;
+	}
+	.desc > p{
+		font-size: 16px;
+	}
+	.desc > h1{
+		font-size: 25px;
+	}
+	.listed-item{
+		line-height: 30px;
+	}
+
+}

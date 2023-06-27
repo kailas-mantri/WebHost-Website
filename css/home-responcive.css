@@ -1,0 +1,256 @@
+@media screen and (max-width: 650px){
+	.company{
+		width: 80%;
+	}
+	.banner-container{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1036px){
+	.banner-container{
+		width: 90%;
+	}
+	.banner-container > h1{
+		font-size: 32px;
+		padding: 0 0 20px 0;
+	}
+	.banner-container > h1 > .quotation{
+		font-size: 30px;
+	}
+	.author{
+		font-size: 19px;
+	}
+	.subtitle{
+		font-size: 20px;
+		line-height: 30px;
+		padding: 30px 15% 55px 0;
+		font-weight: 400;
+	}
+	.desc{
+		padding: 0 0 20px 0;
+	}
+	.plats{
+		font-weight: 500;
+		font-size: 19px;
+	}
+	.banner-container > a > input{
+		width: 35%;
+	}
+	.banner-1{
+		display: grid;
+		grid-row-gap: 50px;
+		grid-template-columns: 1fr;
+	}
+	.company > li > a > img{
+		width: 80px;
+		margin: 0;
+	}
+	.grid-body-2 > .flex > a > img{
+		visibility: visible;
+	}
+}
+@media screen and (max-width: 960px){
+	.grid-body-1{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.grid-body-2{
+		grid-row-gap: 30px;
+		grid-template-columns: 1fr;
+	}
+	.grid-body-2 > .flex > a > img{
+		visibility: visible;
+	}
+}
+@media screen and (max-width: 959px){
+	.grid-body-1{
+		grid-template-columns: 1fr 1fr;
+	}
+	.grid-body-2 > .flex > a > img{
+		visibility: visible;
+	}
+}
+@media screen and (max-width: 640px){
+	.grid-body-1{
+		grid-row-gap: 30px;
+		grid-template-columns: 1fr;
+	}
+	.grid-body-2{
+		grid-row-gap: 25px;
+		grid-template-columns: 1fr;
+	}
+	.grid-body-2 > .flex > a > div > .heade{
+		font-size: 25px;
+	}
+	.grid-body-2 > .flex > a > img{
+		visibility: hidden;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 478px){
+	.grid-body-1{
+		grid-row-gap: 27px;
+		grid-template-columns: 1fr;
+	}
+	.grid-body-2{
+		grid-row-gap: 20px;
+		grid-template-columns: 1fr;
+	}
+	.grid-body-2 > .flex {
+		height: auto;
+	}
+	.grid-body-2 > .flex > a > div > .heade{
+		font-size: 25px;
+	}
+	.banner-container > h1 > .quotation{
+		font-size: 28px;
+	}
+	.author{
+		font-size: 19px;
+	}
+	.subtitle{
+		font-size: 20px;
+		line-height: 30px;
+		padding: 30px 5% 55px 0;
+		font-weight: 400;
+	}
+	.desc{
+		padding: 0 0 20px 0;
+	}
+	.plats{
+		font-weight: 500;
+		font-size: 19px;
+	}
+	.banner-container > a > input{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 935px){
+	.company{
+		width: auto;
+		
+	}
+	.company > li > a > img{
+		width: 70px;
+		margin: 0;
+		text-align: justify;
+	}
+	.grid-body-2 > .flex > a > img{
+		visibility: visible;
+	}
+}
+@media screen and (max-width: 742px){
+	.banner-container {
+		width: 80%;
+	}
+	.banner-container > a > input{
+		padding: 12px 35px ;
+	}
+	.banner-1{
+		padding: 4% 10% 18%;
+	}
+	.banner-container > h1{
+		padding: 0 0 20px 0;
+	}
+}
+@media screen and (max-width: 550px){
+	.banner-container{
+		width: 80%;
+	}
+	.banner-container > h1{
+		font-size: 25px;
+		line-height: 29px;
+		padding: 0 0 20px 0;
+	}
+	.banner-container > h1 > .quotation{
+		font-size: 27px;
+	}
+	.author{
+		font-size: 17.5px;
+	}
+	.subtitle{
+		font-size: 16.8px;
+		line-height: 20px;
+		padding: 25px 14% 50px 0;
+		font-weight: 400;
+	}
+	.desc{
+		padding: 0 0 15px 0;
+	}
+	.plats{
+		font-weight: 500;
+		font-size: 17px;
+	}
+	.banner-container > a > input{
+		width: auto;
+		font-size: 15px;
+		padding: 11px;
+	}
+	.banner-1{
+		padding: 4% 10% 18%;
+		display: grid;
+		grid-row-gap: 45px;
+		grid-template-columns: 1fr;
+	}
+	.company{
+		width: 90%;	
+	}
+	.company > li > a > img{
+		width: 60px;
+		margin: 0;
+		text-align: justify;
+	}
+}
+@media screen and (max-width: 434px){
+	.company{
+		width: 100%;
+		font-size: 15px;
+	}
+	.company > li > a > img{
+		width: 45px;
+		margin: 0;
+		text-align: justify;
+	}
+}
+@media screen and (max-width: 320px){
+	.grid-body{
+		flex: 100%;
+	}
+	.company{
+		width: 40%;
+		font-size: 10px;
+		padding: 20px 1%;
+	}
+	.company > li > a > .companyImages{
+		width: 32px;
+		margin: 0;
+		text-align: left;
+	}
+	.banner-container > h1 {
+		font-size: 20px;
+		line-height: 21px;
+		padding: 0 0 20px 0;
+	}
+	.banner-container > h1 > .quotation{
+		font-size: 24px;
+	}
+	.author{
+		font-size: 17px;
+	}
+	.subtitle{
+		font-size: 17px;
+		line-height: 24px;
+		padding: 30px 5% 5	5px 0;
+		font-weight: 400;
+	}
+	.desc{
+		padding: 0 0 20px 0;
+	}
+	.plats{
+		font-weight: 500;
+		font-size: 19px;
+	}
+	.banner-container > a > input{
+		width: 114%;
+		margin-left: -20px;
+	}
+}
